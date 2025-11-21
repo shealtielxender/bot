@@ -1,0 +1,13 @@
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Linux/Mac:
+source venv/bin/activate
+
+# Install dependencies
+pip install pandas numpy pytest
+pip install -r requirements.txt
+pip install backtesting yfinance pandas numpy
